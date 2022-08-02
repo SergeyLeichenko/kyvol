@@ -1,0 +1,126 @@
+@media screen and (max-width: 1376px) {
+  .wrap {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .recomend__block {
+    position: relative;
+    .text {
+      position: static;
+    }
+  }
+}
+
+@media screen and (max-width: 1214px) {
+  .recomend__block .text__title {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .recomend__block .text__title {
+    font-size: 3em;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 987px) {
+  .recomend__block .text__text_all {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 974px) {
+  .header__top_block-right .menu {
+    margin-left: 2rem;
+  }
+  .recomend__block .text__title {
+    font-size: 2.5rem;
+  }
+  .recomend__title .border-left {
+    margin-right: 0.2rem;
+  }
+  .recomend__title .border-right {
+    margin-left: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 904px) {
+  .header__top_block-left .dropdown {
+    .dropbtn {
+      display: block;
+    }    
+  }
+  .header__top_block-right {
+    .menu {
+      display: none;
+    }
+  }
+  .recomend__block {
+    flex-direction: column;
+    .img,
+    .text {
+      width: 100%;
+    }    
+    .text__subtitle {
+      margin: 0 1rem 1rem 1rem;
+    }
+    .btn-all-text {
+      margin-bottom: 3rem;
+    }
+  }
+  .second-block,
+  .four-block {
+    flex-direction: column-reverse;
+  }
+  .footer__block {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 807px) {
+  .recomend__title {
+    display: flex;
+    flex-direction: column;
+    .line {
+      width: 90%;
+      &:nth-child(1) {
+        margin-bottom: 1rem;
+      }
+      &:nth-child(2) {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .footer__block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer__block_distr {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .recomend__block .text__text_all p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .wrap {
+    padding: 0 1rem;
+  }  
+  .header__top_block-left .lang {
+    margin-right: 3rem;
+  }
+  .recomend__block .text__text_all p {
+    font-size: 13px;
+  }
+}
